@@ -11,6 +11,7 @@ export default {
       }
 
       if (allowedPaths.some(prefix => pathname.startsWith(prefix))) {
+        //NOTE: To Modify request headers use cloudflare rules
         return await fetch(request)
       }
       // Return a 404 Not Found response for other paths
