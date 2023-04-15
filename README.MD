@@ -8,11 +8,11 @@ while returning a 404 Not Found response for other paths.
 ## Functionality
 The router is set up to allow requests to the following paths:
 
-/api
-/redoc
-/docs
-/_admin
-/open-api
+- /api
+- /redoc
+- /docs
+- /_admin
+- /open-api
 
 For requests to these paths, the router will proxy the request through Cloudflare. 
 Requests to other paths will result in a 404 Not Found response.
