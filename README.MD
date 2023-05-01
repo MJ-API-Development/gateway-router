@@ -30,4 +30,8 @@ Note that to modify request headers, you will need to use Cloudflare rules.
 If there is an error when routing a request, the router will return a 500 Internal Server Error response with the message "There was a problem routing your request".
 
 
+## Community
 
+- [Slack Channel](https://join.slack.com/t/eod-stock-apisite/shared_invite/zt-1uelcf229-c_6QAgWFNyVfXKZr1hYYoQ)
+- [StackOverflow](https://stackoverflowteams.com/c/eod-stock-market-api)
+- [Quora](https://eodstockmarketapi.quora.com/)
